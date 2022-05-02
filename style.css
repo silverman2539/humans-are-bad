@@ -1,0 +1,1076 @@
+body
+{
+	padding-top: 25;
+	text-align: center;
+	background: linear-gradient(to bottom right, lavender 0%, lightpink 100%);
+	font-size: 50;
+	color: indigo;
+	display: inline-block;
+	position: relative;
+}
+
+#random
+{
+	position: absolute;
+	border-style: double;
+	border-width: thick;
+	top: 5;
+	bottom: 5;
+	left: 5;
+	right: 5;
+}
+#main
+{
+	padding: 150;
+	padding-bottom: 25;
+	padding-top: 0;
+	margin-top: -50;
+}
+#outer
+{
+	margin: auto;
+	font-size: 25;
+}
+#dots
+{
+	position: absolute;
+	left: 153;
+	right: 153;
+	top: 126;
+	height: 530;
+}
+.info
+{
+	position: absolute;
+	border-style: solid;
+	border-width: thin;
+	border-color: indigo;
+	background-color: #F3F5FF;
+	width: 230;
+	font-size: 15;
+	padding: 0;
+	padding-left: 10;
+	padding-right: 10;
+}
+#origin-info
+{
+	top: 153;
+	right: 37.4%;
+}
+#conservation-info
+{
+	top: 279;
+	left: 22.45%;
+}
+#conservation-2-info
+{
+	top: 218;
+	right: 31.34%;
+}
+#conservation-3-info
+{
+	top: 207;
+	left: 15.33%;
+}
+#conservation-4-info
+{
+	top: 227;
+	right: 20.52%;
+}
+#conservation-5-info
+{
+	top: 142;
+	left: 40.45%;
+}
+#deforestation-info
+{
+	top: 246;
+	right: 18.3%;
+}
+#pollution-info
+{
+	top: 94;
+	right: 34.37%;
+}
+#fuel-info
+{
+	top: 85;
+	left: 18.61%;
+}
+
+#earth
+{
+	width: 100%;
+}
+
+button
+{
+	height: 10;
+	width: 10;
+	padding: 0;
+	border-radius: 50%;
+	border: solid;
+	border-width: thin;
+	background-color: white;
+	position: absolute;
+}
+.mini
+{
+	height: 7.5;
+	width: 7.5;
+}
+#origin
+{
+	background-color: crimson;
+	top: 188;
+	right: 45.5%;
+}
+#origin-1
+{
+	background-color: tomato;
+	top: 143;
+	right: 37.51%;
+}
+#origin-2
+{
+	background-color: tomato;
+	top: 109;
+	right: 45.8%;
+}
+#origin-3
+{
+	background-color: tomato;
+	top: 127;
+	left: 46.15%;
+}
+#origin-4
+{
+	background-color: tomato;
+	top: 46;
+	right: 38.4%;
+}
+#origin-5
+{
+	background-color: tomato;
+	top: 78;
+	right: 22.3%;
+}
+#origin-1a
+{
+	background-color: tomato;
+	top: 175;
+	right: 44.75%;
+}
+#origin-1b
+{
+	background-color: tomato;
+	top: 164;
+	right: 43.7%;
+}
+#origin-1c
+{
+	background-color: tomato;
+	top: 156;
+	right: 42.25%;
+}
+#origin-1d
+{
+	background-color: tomato;
+	top: 150;
+	right: 40.75%;
+}
+#origin-1e
+{
+	background-color: tomato;
+	top: 146;
+	right: 39.2%;
+}
+#origin-2a
+{
+	background-color: tomato;
+	top: 144;
+	right: 39.3%;
+}
+#origin-2b
+{
+	background-color: tomato;
+	top: 135;
+	right: 40.45%;
+}
+#origin-2c
+{
+	background-color: tomato;
+	top: 131;
+	right: 42%;
+}
+#origin-2d
+{
+	background-color: tomato;
+	top: 129;
+	right: 43.5%;
+}
+#origin-2e
+{
+	background-color: tomato;
+	top: 123;
+	right: 44.85%;
+}
+#origin-3a
+{
+	background-color: tomato;
+	top: 105;
+	right: 47.55%;
+}
+#origin-3b
+{
+	background-color: tomato;
+	top: 103;
+	right: 49.15%;
+}
+#origin-3c
+{
+	background-color: tomato;
+	top: 108;
+	left: 48.6%;
+}
+#origin-3d
+{
+	background-color: tomato;
+	top: 116;
+	left: 47.35%;
+}
+#origin-4a
+{
+	background-color: tomato;
+	top: 94;
+	right: 45.45%;
+}
+#origin-4b
+{
+	background-color: tomato;
+	top: 80;
+	right: 44.95%;
+}
+#origin-4c
+{
+	background-color: tomato;
+	top: 67;
+	right: 44.2%;
+}
+#origin-4d
+{
+	background-color: tomato;
+	top: 58;
+	right: 43.05%;
+}
+#origin-4e
+{
+	background-color: tomato;
+	top: 51;
+	right: 41.7%;
+}
+#origin-4f
+{
+	background-color: tomato;
+	top: 47;
+	right: 40.15%;
+}
+#origin-5a
+{
+	background-color: tomato;
+	top: 150;
+	right: 36.15%;
+}
+#origin-5b
+{
+	background-color: tomato;
+	top: 153;
+	right: 34.6%;
+}
+#origin-5c
+{
+	background-color: tomato;
+	top: 154;
+	right: 33.05%;
+}
+#origin-5d
+{
+	background-color: tomato;
+	top: 153;
+	right: 31.45%;
+}
+#origin-5e
+{
+	background-color: tomato;
+	top: 150;
+	right: 29.9%;
+}
+#origin-5f
+{
+	background-color: tomato;
+	top: 145;
+	right: 28.4%;
+}
+#origin-5g
+{
+	background-color: tomato;
+	top: 138;
+	right: 27.05%;
+}
+#origin-5h
+{
+	background-color: tomato;
+	top: 130;
+	right: 25.7%;
+}
+#origin-5i
+{
+	background-color: tomato;
+	top: 121;
+	right: 24.45%;
+}
+#origin-5j
+{
+	background-color: tomato;
+	top: 109;
+	right: 23.4%;
+}
+#origin-5k
+{
+	background-color: tomato;
+	top: 95;
+	right: 22.65%;
+}
+#conservation
+{
+	background-color: crimson;
+	top: 242;
+	left: 26%;
+}
+#conservation-2
+{
+	background-color: tomato;
+	top: 181;
+	right: 37.5%;
+}
+#conservation-3
+{
+	background-color: tomato;
+	top: 170;
+	left: 16.8%;
+}
+#conservation-4
+{
+	background-color: tomato;
+	top: 190;
+	right: 23.5%;
+}
+#conservation-5
+{
+	background-color: tomato;
+	top: 105;
+	left: 49.2%;
+}
+#conservation-1a
+{
+	background-color: tomato;
+	top: 248;
+	left: 24.75%;
+}
+#conservation-1b
+{
+	background-color: tomato;
+	top: 255;
+	left: 25.6%;
+}
+#conservation-1c
+{
+	background-color: tomato;
+	top: 136;
+	left: 46.2%;
+}
+#conservation-1d
+{
+	background-color: tomato;
+	top: 137;
+	left: 45.5%;
+}
+#conservation-1e
+{
+	background-color: tomato;
+	top: 113;
+	left: 49.25%;
+}
+#conservation-1f
+{
+	background-color: tomato;
+	top: 210;
+	left: 30%;
+}
+#conservation-1g
+{
+	background-color: tomato;
+	top: 105;
+	left: 47.8%;
+}
+#conservation-1h
+{
+	background-color: tomato;
+	top: 122;
+	left: 48.3%;
+}
+#conservation-1i
+{
+	background-color: tomato;
+	top: 116;
+	left: 47.15%;
+}
+#conservation-1j
+{
+	background-color: tomato;
+	top: 102;
+	left: 46.4%;
+}
+#conservation-1k
+{
+	background-color: tomato;
+	top: 137;
+	right: 19%;
+}
+#conservation-1l
+{
+	background-color: tomato;
+	top: 140;
+	right: 18.5%;
+}
+#conservation-1m
+{
+	background-color: tomato;
+	top: 145;
+	right: 18.7%;
+}
+#conservation-1n
+{
+	background-color: tomato;
+	top: 111;
+	right: 19.65%;
+}
+#conservation-1o
+{
+	background-color: tomato;
+	top: 161;
+	right: 20.6%;
+}
+#conservation-1p
+{
+	background-color: tomato;
+	top: 165;
+	right: 21.75%;
+}
+#conservation-1q
+{
+	background-color: tomato;
+	top: 152;
+	right: 23.5%;
+}
+#conservation-1r
+{
+	background-color: tomato;
+	top: 119;
+	right: 19.85%;
+}
+#conservation-1s
+{
+	background-color: tomato;
+	top: 346;
+	right: 11.35%;
+}
+#conservation-1t
+{
+	background-color: tomato;
+	top: 383;
+	right: 12.55%;
+}
+#conservation-1u
+{
+	background-color: tomato;
+	top: 255;
+	right: 42.15%;
+}
+#conservation-1v
+{
+	background-color: tomato;
+	top: 260;
+	right: 41.9%;
+}
+#conservation-2a
+{
+	background-color: tomato;
+	top: 303;
+	left: 27.05%;
+}
+#conservation-2b
+{
+	background-color: tomato;
+	top: 280;
+	left: 25.8%;
+}
+#conservation-2c
+{
+	background-color: tomato;
+	top: 181;
+	left: 17.25%;
+}
+#conservation-2d
+{
+	background-color: tomato;
+	top: 152;
+	right: 42.85%;
+}
+#conservation-2e
+{
+	background-color: tomato;
+	top: 262;
+	right: 42.35%;
+}
+#conservation-2f
+{
+	background-color: tomato;
+	top: 159;
+	right: 42.45%;
+}
+#conservation-2g
+{
+	background-color: tomato;
+	top: 155;
+	right: 42.55%;
+}
+#conservation-2h
+{
+	background-color: tomato;
+	top: 105;
+	left: 48.3%;
+}
+#conservation-2i
+{
+	background-color: tomato;
+	top: 117;
+	left: 47.65%;
+}
+#conservation-2j
+{
+	background-color: tomato;
+	top: 114;
+	left: 48.5%;
+}
+#conservation-2k
+{
+	background-color: tomato;
+	top: 102;
+	left: 48.8%;
+}
+#conservation-2l
+{
+	background-color: tomato;
+	top: 122;
+	left: 48.3%;
+}
+#conservation-2m
+{
+	background-color: tomato;
+	top: 165;
+	right: 44.2%;
+}
+#conservation-2n
+{
+	background-color: tomato;
+	top: 166;
+	right: 43.15%;
+}
+#conservation-r-2a
+{
+	background-color: gold;
+	top: 210;
+	left: 30%;
+}
+#conservation-r-2b
+{
+	background-color: gold;
+	top: 105;
+	left: 47.8%;
+}
+#conservation-r-2c
+{
+	background-color: gold;
+	top: 122;
+	left: 48.3%;
+}
+#conservation-r-2d
+{
+	background-color: gold;
+	top: 116;
+	left: 47.15%;
+}
+#conservation-r-2e
+{
+	background-color: gold;
+	top: 255;
+	right: 42.15%;
+}
+#conservation-r-2f
+{
+	background-color: gold;
+	top: 260;
+	right: 41.9%;
+}
+#conservation-3a
+{
+	background-color: tomato;
+	top: 112;
+	left: 48.2%;
+}
+#conservation-3b
+{
+	background-color: tomato;
+	top: 113;
+	left: 48.4%;
+}
+#conservation-3c
+{
+	background-color: tomato;
+	top: 102;
+	left: 48.8%;
+}
+#conservation-3d
+{
+	background-color: tomato;
+	top: 110;
+	left: 48.5%;
+}
+#conservation-r-3a
+{
+	background-color: gold;
+	top: 102;
+	left: 46.4%;
+}
+#conservation-4a
+{
+	background-color: tomato;
+	top: 245;
+	left: 32.1%;
+}
+#conservation-4b
+{
+	background-color: tomato;
+	top: 247;
+	left: 26.45%;
+}
+#conservation-4c
+{
+	background-color: tomato;
+	top: 248;
+	left: 24.15%;
+}
+#conservation-r-4a
+{
+	background-color: gold;
+	top: 111;
+	right: 19.65%;
+}
+#conservation-r-4b
+{
+	background-color: gold;
+	top: 161;
+	right: 20.6%;
+}
+#conservation-5a
+{
+	background-color: tomato;
+	top: 115;
+	right: 49.25%;
+}
+#conservation-5b
+{
+	background-color: tomato;
+	top: 119;
+	right: 49.65%;
+}
+#conservation-5c
+{
+	background-color: tomato;
+	top: 110;
+	left: 48.6%;
+}
+#conservation-5d
+{
+	background-color: tomato;
+	top: 116;
+	left: 48.7%;
+}
+#conservation-5e
+{
+	background-color: tomato;
+	top: 114;
+	left: 48.1%;
+}
+#conservation-5f
+{
+	background-color: tomato;
+	top: 102;
+	left: 47.8%;
+}
+#conservation-5g
+{
+	background-color: tomato;
+	top: 105;
+	left: 48.6%;
+}
+#conservation-5h
+{
+	background-color: tomato;
+	top: 110;
+	left: 48.8%;
+}
+#conservation-r-5a
+{
+	background-color: gold;
+	top: 113;
+	left: 49.25%;
+}
+#conservation-r-5b
+{
+	background-color: gold;
+	top: 137;
+	right: 19%;
+}
+#conservation-r-5c
+{
+	background-color: gold;
+	top: 140;
+	right: 18.5%;
+}
+#conservation-r-5d
+{
+	background-color: gold;
+	top: 145;
+	right: 18.7%;
+}
+#deforestation
+{
+	background-color: crimson;
+	top: 263;
+	right: 20.6%;
+}
+#deforestation-a
+{
+	background-color: tomato;
+	top: 212;
+	left: 23%;
+}
+#deforestation-b
+{
+	background-color: tomato;
+	top: 230;
+	left: 49.05%;
+}
+#deforestation-c
+{
+	background-color: tomato;
+	top: 222;
+	right: 18.15%;
+}
+#deforestation-d
+{
+	background-color: tomato;
+	top: 228;
+	left: 47.55%;
+}
+#deforestation-e
+{
+	background-color: tomato;
+	top: 238;
+	left: 46.5%;
+}
+#deforestation-f
+{
+	background-color: tomato;
+	top: 168;
+	right: 29.7%;
+}
+#deforestation-g
+{
+	background-color: tomato;
+	top: 141;
+	right: 18.8%;
+}
+#deforestation-h
+{
+	background-color: tomato;
+	top: 198;
+	left: 26.85%;
+}
+#deforestation-i
+{
+	background-color: tomato;
+	top: 265;
+	left: 25%;
+}
+#pollution
+{
+	background-color: crimson;
+	top: 75;
+	right: 41.4%;
+}
+#pollution-a
+{
+	background-color: tomato;
+	top: 97;
+	right: 44.65%;
+}
+#pollution-b
+{
+	background-color: tomato;
+	top: 308;
+	right: 44.75%;
+}
+#pollution-c
+{
+	background-color: tomato;
+	top: 298;
+	left: 25.9%;
+}
+#pollution-d
+{
+	background-color: tomato;
+	top: 142;
+	right: 23.95%;
+}
+#pollution-e
+{
+	background-color: tomato;
+	top: 122;
+	right: 33.65%;
+}
+#pollution-f
+{
+	background-color: tomato;
+	top: 33;
+	right: 34.8%;
+}
+#pollution-g
+{
+	background-color: tomato;
+	top: 190;
+	right: 29.15%;
+}
+#pollution-h
+{
+	background-color: tomato;
+	top: 128;
+	right: 39.95%;
+}
+#pollution-i
+{
+	background-color: tomato;
+	top: 150;
+	right: 22.45%;
+}
+#fuel /*United States*/
+{
+	background-color: crimson;
+	top: 130;
+	left: 21%;
+}
+#fuel-1a /*Saudi Arabia*/
+{
+	background-color: tomato;
+	top: 181;
+	right: 40.05%;
+}
+#fuel-1b /*Russia*/
+{
+	background-color: tomato;
+	top: 58;
+	right: 30.95%;
+}
+#fuel-1c /*Canada*/
+{
+	background-color: tomato;
+	top: 75;
+	left: 21%;
+}
+#fuel-1d /*China*/
+{
+	background-color: tomato;
+	top: 144;
+	right: 25.6%;
+}
+#fuel-1e /*Iraq*/
+{
+	background-color: tomato;
+	top: 150;
+	right: 40.85%;
+}
+#fuel-1f /*Iran*/
+{
+	background-color: tomato;
+	top: 153;
+	right: 37.85%;
+}
+#fuel-1g /*United Arab Emirates*/
+{
+	background-color: tomato;
+	top: 182;
+	right: 37.65%;
+}
+#fuel-1h /*Brazil*/
+{
+	background-color: tomato;
+	top: 295;
+	left: 32.6%;
+}
+#fuel-1i /*Kuwait*/
+{
+	background-color: tomato;
+	top: 165;
+	right: 39.5%;
+}
+#fuel-2a /*Russia*/
+{
+	background-color: tomato;
+	top: 58;
+	right: 30.95%;
+}
+#fuel-2b /*Iran*/
+{
+	background-color: tomato;
+	top: 153;
+	right: 37.85%;
+}
+#fuel-2c /*Canada*/
+{
+	background-color: tomato;
+	top: 75;
+	left: 21%;
+}
+#fuel-2d /*Qatar*/
+{
+	background-color: tomato;
+	top: 176;
+	right: 38.45%;
+}
+#fuel-2e /*China*/
+{
+	background-color: tomato;
+	top: 144;
+	right: 25.6%;
+}
+#fuel-2f /*Norway*/
+{
+	background-color: tomato;
+	top: 62;
+	left: 49.45%;
+}
+#fuel-2g /*Australia*/
+{
+	background-color: tomato;
+	top: 343;
+	right: 16%;
+}
+#fuel-2h /*Saudi Arabia*/
+{
+	background-color: tomato;
+	top: 181;
+	right: 40.05%;
+}
+#fuel-2i /*Algeria*/
+{
+	background-color: tomato;
+	top: 168;
+	left: 47.65%;
+}
+#fuel-3a /*China*/
+{
+	background-color: tomato;
+	top: 144;
+	right: 25.6%;
+}
+#fuel-3b /*India*/
+{
+	background-color: tomato;
+	top: 185;
+	right: 30.85%;
+}
+#fuel-3c /*Australia*/
+{
+	background-color: tomato;
+	top: 343;
+	right: 16%;
+}
+#fuel-3d /*Indonesia*/
+{
+	background-color: tomato;
+	top: 264;
+	right: 20.7%;
+}
+#fuel-3e /*Russia*/
+{
+	background-color: tomato;
+	top: 58;
+	right: 30.95%;
+}
+#fuel-3f /*South Africa*/
+{
+	background-color: tomato;
+	top: 358;
+	right: 45.6%;
+}
+#fuel-3g /*Germany*/
+{
+	background-color: tomato;
+	top: 92;
+	left: 49.75%;
+}
+#fuel-3h /*Poland*/
+{
+	background-color: tomato;
+	top: 90;
+	right: 47.45%;
+}
+#fuel-3i /*Kazakhstan*/
+{
+	background-color: tomato;
+	top: 102;
+	right: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
